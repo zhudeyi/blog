@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "1e0c5e3cd48665edbe8d85cb95e1961c",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4054,6 +4054,30 @@
                 }
             ],
             "time": "2021-01-20T14:39:46+00:00"
+        },
+        {
+            "name": "xiehen/love",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zhudeyi/love.git",
+                "reference": "e244e3010631c3de69b05931d422158769d73f46"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xieheng\\Love\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "zhudeyi",
+                    "email": "2634718650@qq.com"
+                }
+            ],
+            "description": "xiehen love",
+            "time": "2021-03-31T03:21:34+00:00"
         }
     ],
     "packages-dev": [
@@ -6253,7 +6277,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "xiehen/love": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
